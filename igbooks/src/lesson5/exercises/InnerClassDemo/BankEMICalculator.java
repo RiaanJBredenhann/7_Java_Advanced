@@ -5,8 +5,8 @@
  */
 package lesson5.exercises.InnerClassDemo;
 
-public class BankEMICalculator {
-
+public class BankEMICalculator
+{
     private String CustomerName;
     private String AccountNo;
     private double loanAmount;
@@ -18,7 +18,6 @@ public class BankEMICalculator {
         this.AccountNo = AccNo;
         this.CustomerName = CustName;
         this.loanAmount = loanAmt;
-
     }
 
     public String getCustomerName() {
@@ -61,8 +60,8 @@ public class BankEMICalculator {
         this.helper = helper;
     }
 
-    private class EMICalculatorHelper {
-
+    private class EMICalculatorHelper
+    {
         int loanTerm = 60;
         double monthlyinterestRate = 0.9;
         double interestpermonth = monthlyinterestRate / loanTerm;
