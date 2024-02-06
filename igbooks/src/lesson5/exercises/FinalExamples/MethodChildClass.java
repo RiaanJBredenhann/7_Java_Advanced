@@ -1,8 +1,8 @@
 package lesson5.exercises.FinalExamples;
 
-public class MethodChildClass extends MethodParentClass {    
+public class MethodChildClass extends MethodParentClass {
     // compile time error
-    public void printMessage() {
-        System.out.println("Cannot override method");
-    }
+//    public void printMessage() {
+//        System.out.println("Cannot override method");
+//    }
 }
