@@ -1,4 +1,4 @@
-package lesson4.exercises.Override;
+package lesson4.exercises.Overriding;
 
 public class BadManager extends Employee {
     private String deptName;

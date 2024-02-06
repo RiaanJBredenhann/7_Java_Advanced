@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 
-package lesson4.exercises.Override;
+package lesson4.exercises.Overriding;
 
 
 

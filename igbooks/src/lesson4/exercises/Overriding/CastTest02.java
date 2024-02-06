@@ -1,4 +1,4 @@
-package lesson4.exercises.Override;
+package lesson4.exercises.Overriding;
 
 public class CastTest02 {
   public static void main(String[] args) {
