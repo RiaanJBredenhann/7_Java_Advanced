@@ -1,7 +1,7 @@
 package lesson4.exercises.ImmutableClassDemo;
 
-public final class Contacts {
-
+public final class Contacts
+{
     private final String firstName;
     private final String lastName;
     private final String mobileNo;
@@ -24,10 +24,9 @@ public final class Contacts {
         return mobileNo;
     }
 
-    public String toString() {
-
+    public String toString()
+    {
         return firstName + " - " + lastName + " - " + mobileNo;
-
     }
 }
 
