@@ -5,4 +5,5 @@ public interface SalesCalcs {
   public double calcSalesPrice();
   public double calcCost();
   public double calcProfit();
+
 }

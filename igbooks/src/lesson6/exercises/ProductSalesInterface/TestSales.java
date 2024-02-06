@@ -1,9 +1,11 @@
 package lesson6.exercises.ProductSalesInterface;
 
 public class TestSales {
-  public static void main(String[] args) {
+  public static void main(String[] args)
+  {
     CrushedRock rock1 = new CrushedRock(12, 10, 50);
     SalesCalcs rock2 = new CrushedRock(12, 10, 50);
+
     System.out.println("Sales Price: " + rock1.calcSalesPrice());
     System.out.println("Sales Price: " + rock2.calcSalesPrice());
     
@@ -17,11 +19,11 @@ public class TestSales {
     itemList[4] = new Widget(14.0, 12.0, 20);
     
     System.out.println("==Sales Report==");
-    for(SalesCalcs item:itemList){
+
+    for (SalesCalcs item:itemList)
+    {
       report.printItemData(item);
     }
-    
-    
-    
+
   }
 }
