@@ -47,7 +47,7 @@ public class Employee {
         }
     }
 
-    public  void printEmployee() {
+    public void printEmployee() {
 
         System.out.println(); // Print a blank line as a separator
         // Print out the data in this Employee object

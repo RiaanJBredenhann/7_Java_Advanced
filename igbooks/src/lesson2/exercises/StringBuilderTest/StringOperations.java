@@ -6,6 +6,7 @@ public class StringOperations {
 
         StringBuilder sb = new StringBuilder("hello");
         System.out.println("string sb: " + sb);
+
         sb.append(" world");
         System.out.println("string sb: " + sb);
 

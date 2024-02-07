@@ -21,7 +21,7 @@ public class Main {
         employee1.SetName("Harry");
         employee1.RaiseSalary(10000);
         manager1.SetName("Bob");
-        manager1.SetSalary(30000);
+        manager1.RaiseSalary(30000);
 
         System.out.println("After Change");
         System.out.println();

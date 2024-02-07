@@ -3,7 +3,7 @@ package lesson2.exercises.Employee;
 public class EmployeeTest {
 
     public static void main(String[] args) {
-        Employee emp = new Employee ();
+        Employee emp = new Employee();
         emp.setEmpId(101);
         emp.setName("Jane Smith");
         emp.setSsn ("012-34-5678");

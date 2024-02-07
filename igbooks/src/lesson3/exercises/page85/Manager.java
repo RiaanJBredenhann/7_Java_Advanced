@@ -8,7 +8,10 @@ public class Manager extends Employee {
     private String departmentName;
 
     public Manager(int employeeID, String name, String ssn, double salary, String deptName) {
-        super(employeeID, name, ssn, salary);
+        //super(employeeID, name, ssn, salary);
+        this.employeeID = employeeID;
+        this.name = name;
+        this.ssn = ssn;
         this.salary = salary;
         this.departmentName = deptName;
     }
@@ -51,6 +54,10 @@ public class Manager extends Employee {
 
     public String GetDepartment() {
         return this.departmentName;
+    }
+
+    public void RaiseSalary(int increase) {
+        this.salary += increase;
     }
 
 }
