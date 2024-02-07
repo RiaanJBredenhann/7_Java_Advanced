@@ -1,8 +1,9 @@
 package lesson4.exercises.Overriding;
 
-public class VirtualInvokeTest01 {
-
-  public static void main(String[] args) {
+public class VirtualInvokeTest01
+{
+  public static void main(String[] args)
+  {
     Employee e = new Employee(101, "Jim Smith", 
         "011-12-2345", 100_000.00);
     Manager m = new Manager(102, "Joan Kern", 
