@@ -1,30 +1,23 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
 package lesson4.exercises.VarArgsExample;
 
 import java.util.Objects;
 
-
-public class Employee {
-
-
+public class Employee
+{
     public int empId;
     public String name;
     public String ssn;
     public double salary;
 
-  public Employee (int empId, String name, String ssn, double salary) {
-         this.empId = empId;
-         this.name = name;
-         this.ssn = ssn;
-        this.salary = salary;
-     }
+  public Employee (int empId, String name, String ssn, double salary)
+  {
+      this.empId = empId;
+      this.name = name;
+      this.ssn = ssn;
+      this.salary = salary;
+  }
 
-    public String getName() {
+  public String getName() {
         return name;
     }
 

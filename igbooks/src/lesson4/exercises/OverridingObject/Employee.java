@@ -2,8 +2,8 @@ package lesson4.exercises.OverridingObject;
 
 import java.util.Objects;
 
-public class Employee {
-
+public class Employee
+{
     public int empId;
     public String name;
     public String ssn;
