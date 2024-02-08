@@ -2,14 +2,10 @@ package lesson8.exercises.SalesTxn;
 
 import java.util.List;
 
-/**
- *
- * @author oracle
- */
-public class A01OldStyleFor {
-
-    public static void main(String[] args) {
-        
+public class A01OldStyleFor
+{
+    public static void main(String[] args)
+    {
         List<SalesTxn> tList = SalesTxn.createTxnList();
         
         System.out.println("\n=== Print List with for ===");
