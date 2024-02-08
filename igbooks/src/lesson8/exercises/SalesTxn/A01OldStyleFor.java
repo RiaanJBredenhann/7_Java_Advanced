@@ -9,7 +9,8 @@ public class A01OldStyleFor
         List<SalesTxn> tList = SalesTxn.createTxnList();
         
         System.out.println("\n=== Print List with for ===");
-        for(SalesTxn t:tList){
+        for(SalesTxn t : tList)
+        {
             t.printSummary();
         }        
     }
