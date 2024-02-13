@@ -16,7 +16,7 @@ public class EmployeeTest {
 
 
         // the following line results in compilation error.
-        //As the method engineerMethod is undefined for the Employee Type
+        // As the method engineerMethod is undefined for the Employee Type
         //  obj.engineerMethod();
         eng.engineerMethod();
         printEmployee(obj);
