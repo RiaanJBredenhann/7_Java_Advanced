@@ -5,6 +5,7 @@ public class Television extends ElectronicDevice {
     public void turnOn() {
         changeChannel(1);
         initializeScreen();
+        System.out.println("TV is turned on");
     }
     public void turnOff() {}
     

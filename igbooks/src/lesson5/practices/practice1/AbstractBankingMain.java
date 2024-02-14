@@ -39,8 +39,7 @@ public class AbstractBankingMain {
 
         bank.addCustomer("Maria", "Soley");
         customer = bank.getCustomer(5);
-        CheckingAccount chkAcct = new CheckingAccount(100.00);
-
+        CheckingAccount chkAcct = new CheckingAccount(10000);
         customer.addAccount(chkAcct);
 
         if (chkAcct.withdraw(900.00)) {

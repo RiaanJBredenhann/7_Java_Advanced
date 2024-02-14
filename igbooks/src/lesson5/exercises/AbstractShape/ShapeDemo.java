@@ -17,6 +17,6 @@ public class ShapeDemo {
     System.out.println("Area is " + figref.calculateArea());
 
     //figref = f;
-    System.out.println("Area is " + figref.calculateArea());
+    //System.out.println("Area is " + figref.calculateArea());
   } 
 }
