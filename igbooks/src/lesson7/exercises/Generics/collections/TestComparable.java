@@ -10,7 +10,8 @@ public class TestComparable {
         studentList.add(new ComparableStudent("Thomas Jefferson", 1111, 3.8));
         studentList.add(new ComparableStudent("John Adams", 2222, 3.9));
         studentList.add(new ComparableStudent("George Washington", 3333, 3.4));
-               studentList.add(new ComparableStudent("John Adams", 4444, 3.0));
+        studentList.add(new ComparableStudent("John Adams", 4444, 3.0));
+
         for(ComparableStudent student:studentList){
             System.out.println(student);
         }

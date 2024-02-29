@@ -12,6 +12,7 @@ public class TestGrades {
         
         System.out.println("GPA: " + sum / c.size());
         System.out.print("Grades [..");
+
         for(Grade g:c){ 
             System.out.print(g.toString() + "..");
         }

@@ -15,7 +15,8 @@ public class TestComparator {
         studentList.add(new Student("George Washington", 3333, 3.4));
         studentList.add(new Student("John Adams", 2222, 3.9));
         
-        Collections.sort(studentList, sortName);       
+        Collections.sort(studentList, sortName);
+
         for(Student student:studentList){
             System.out.println(student);
         }

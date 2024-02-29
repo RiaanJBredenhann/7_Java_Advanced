@@ -41,7 +41,7 @@ public class Main {
 
         customer.addAccount(acct5);
 
-        if (acct5.withdraw(900.00)) {
+        if (acct5.withdraw(1.00)) {
             customer.addAccount(acct5);
             System.out.print(" withdraw is successful" + acct5.getBalance());
         }
