@@ -1,9 +1,5 @@
 package lesson8.exercises.SalesTxn;
 
-/**
- *
- * @author oracle
- */
 public enum TaxRate {  
     CA(0.09d),
     CO(0.08d),

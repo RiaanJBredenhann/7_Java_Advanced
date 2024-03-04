@@ -2,12 +2,6 @@ package lesson8.exercises.RoboCallExample;
 
 import java.util.List;
 
-/**
- *
- * @author MikeW
- * 
- * This is a basic class with a lot of redundancy.
- */
 public class RoboCall01 {
   
   public void callDrivers(List<Person> pl){

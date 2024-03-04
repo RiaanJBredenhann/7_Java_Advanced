@@ -2,10 +2,6 @@ package lesson8.exercises.RoboCallExample;
 
 import java.util.function.Predicate;
 
-/**
- *
- * @author oracle
- */
 public class Pilots implements Predicate<Person>{
     
     @Override

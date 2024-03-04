@@ -27,6 +27,7 @@ public class ParenMatcher {
                 }
             }
         }
+
         if (stack.size() > 0) {
             return false; // Missing match invalid expression
         } else {
@@ -36,6 +37,7 @@ public class ParenMatcher {
 
     public void processArray(String[] lines) {
         int count = 0;
+
         for (String line : lines) {
             if (this.processLine(line)) {
                 System.out.println("Line " + count + " is valid");

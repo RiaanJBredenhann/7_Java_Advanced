@@ -1,9 +1,5 @@
 package lesson8.exercises.SalesTxn;
 
-/**
- *
- * @author oracle
- */
 public enum State {    
     CA("CA"),
     CO("CO"),

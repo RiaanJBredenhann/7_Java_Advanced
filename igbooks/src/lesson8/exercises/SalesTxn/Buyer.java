@@ -3,10 +3,6 @@ package lesson8.exercises.SalesTxn;
 import java.util.HashMap;
 import java.util.Map;
 
-/**
- *
- * @author oracle
- */
 public class Buyer {
 
     private String name;

@@ -5,9 +5,6 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
-/**
- * @author MikeW
- */
 public class SalesTxn {
     private long txnId;
     private String salesPerson;

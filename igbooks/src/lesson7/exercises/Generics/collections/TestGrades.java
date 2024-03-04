@@ -22,6 +22,7 @@ public class TestGrades {
     public static void main(String[] args){
         TestGrades grader = new TestGrades();
         List<Grade> student1 = new ArrayList<>(5);
-        student1.addAll(Arrays.asList(Grade.A, Grade.B, Grade.A, Grade.A, Grade.B));        grader.calcGpa(student1);   
+        student1.addAll(Arrays.asList(Grade.A, Grade.B, Grade.A, Grade.A, Grade.B));
+        grader.calcGpa(student1);
     }  
 }

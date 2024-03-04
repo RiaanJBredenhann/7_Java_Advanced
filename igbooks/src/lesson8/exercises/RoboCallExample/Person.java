@@ -3,9 +3,6 @@ package lesson8.exercises.RoboCallExample;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * @author MikeW
- */
 public class Person {
   private String givenName;
   private String surName;

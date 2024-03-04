@@ -2,10 +2,6 @@ package lesson8.exercises.SalesTxn;
 
 import java.util.List;
 
-/**
- *
- * @author oracle
- */
 public class A05OldStyleSumLoop {
 
     public static void main(String[] args) {
