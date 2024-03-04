@@ -2,10 +2,6 @@ package lesson8.practices.practice4;
 
 import java.util.List;
 
-/**
- * @author Oracle
- * Streams and filters
- */
 public class RoboMailTest01 {
   
   public static void main(String[] args) {

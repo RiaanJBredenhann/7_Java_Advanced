@@ -3,9 +3,6 @@ package lesson8.practices.practice4;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * @author MikeW
- */
 public class Employee {
   private String givenName;
   private String surName;

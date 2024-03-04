@@ -1,10 +1,5 @@
 package lesson8.practices.practice4;
 
-/**
- *
- * @author MikeW
- * 
- */
 public class RoboMail01 {
   
     

@@ -13,8 +13,7 @@ public class A05OldStyleSumLoop {
         double sum = 0;
         
         for(SalesTxn t:tList){    
-          if(t.getState().equals(State.CA) && 
-                t.getBuyerName().equals("Acme Electronics")){
+          if(t.getState().equals(State.CA) && t.getBuyerName().equals("Acme Electronics")){
               t.printSummary();
               sum += t.getTransactionTotal();
           }
